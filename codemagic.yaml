@@ -7,7 +7,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: "com.BwayRules.notificationsvc" # <-- Основной бандл
+        bundle_identifier: "com.BwayRules" # <-- Основной бандл
       vars:
         BUNDLE_ID: "com.BwayRules"
         PUSH_BUNDLE_ID: "com.BwayRules.notificationsvc"
